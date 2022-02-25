@@ -1,0 +1,377 @@
+/* ---------------------------------------------- */
+/* Adjustements                                   */
+/* ---------------------------------------------- */
+#menu span h5
+{
+    color: #111;
+}
+#nav-logo
+{
+    color: #111;
+}
+
+:root
+{
+
+    /* Colors */
+    --text-color: hsl(230, 8%, 10%);
+    --off-white: hsl(223, 33%, 96%);
+    --accent: #3db2ff;
+    --accent-dark: hsl(211,94%,34%);
+
+}
+
+/* ---------------------------------------------- */
+/* Fondation                                      */
+/* ---------------------------------------------- */
+#hero
+{
+    background-image: url("../img/fondationHeroBG.jpeg");
+    background-size: cover;
+    background-position: top center;
+    margin-top: 6rem;
+}
+.hero-overlay
+{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100%;
+}
+#hero h1
+{
+    color: #fff;
+    font-size: 5rem;
+    padding: 15rem 5rem;
+
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: hero-h1 1.5s ease forwards;
+}
+#about .row
+{
+    margin-top: 5rem;
+}
+#about video 
+{
+    height: 400px;
+}
+#about .right
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#about .right a
+{
+    color: #fff;
+    background-color: var(--accent);
+    font-size: 1.5rem;
+}
+#about .right a:hover
+{
+    margin-left: 2rem;
+}
+#president
+{
+    background-color: var(--off-white);
+    padding: 4rem 2rem;
+}
+#president h2::before
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    background-image: url("../img/quotationMarks.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#president h2::after
+{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(50%, 50%);
+    width: 100px;
+    height: 100px;
+    background-image: url("../img/quotationMarksBottom.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#president .button
+{
+    color: #fff;
+    background-color: var(--accent);
+    border: 4px solid var(--accent);
+}
+#page-president
+{
+    margin-top: 8rem;
+}
+#page-president span
+{
+    color: var(--accent);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+#page-president ul
+{
+    padding-left: 2rem;
+    list-style: circle;
+}
+#public
+{
+    padding-top: 92px;
+}
+#public .left
+{
+    background-image: url("../img/YoungBoy.jpg");
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding: 0;
+}
+#public .left img
+{
+    width: 100%;
+    height: 100%;
+}
+#public .left h1
+{
+    color: var(--accent);
+    font-size: 10rem;
+}
+#public .right
+{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-card
+{
+    background-color: var(--off-white);
+    display: flex;
+    height: 280px;
+    width: 280px;
+
+    background-image: url("../img/admin/shanycarle.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#profile-1
+{
+    background-image: url("../img/admin/jessyBelanger.jpeg");
+}
+#profile-2
+{
+    background-image: url("../img/admin/jonathanBlais.jpg");
+}
+#profile-3
+{
+    background-image: url("../img/admin/shanycarle.jpg");
+}
+#profile-4
+{
+    background-image: url("../img/admin/patrickBuisson.jpg");
+}
+#profile-5
+{
+    background-image: url("../img/admin/alexMartin.png");
+}
+#profile-6
+{
+    background-image: url("../img/admin/albertBrunelle.png");
+}
+#profile-7
+{
+    background-image: url("../img/admin/mikaelGuillemette.png");
+}
+#profile-8
+{
+    background-image: url("../img/admin/jasonLuckerhoff.png");
+}
+#profile-9
+{
+    background-image: url("../img/admin/francisJutras.png");
+}
+#profile-10
+{
+    background-image: url("../img/admin/marieSoleil.png");
+}
+#profile-11
+{
+    background-image: url("../img/admin/myleneGP.png");
+}
+#profile-12
+{
+    background-image: url("../img/admin/johanneVachon.png");
+}
+#profile-13
+{
+    background-image: url("../img/admin/audreyForest.png");
+}
+#profile-14
+{
+    background-image: url("../img/admin/stephaneGenereux.png");
+}
+#profile-15
+{
+    background-image: url("../img/admin/dominicBoucher.png");
+}
+#profile-16
+{
+    background-image: url("../img/admin/jeromeGagnon.png");
+}
+#profile-17
+{
+    background-image: url("../img/admin/nathalieGaron.png");
+}
+#profile-18
+{
+    background-image: url("../img/admin/andreGalias.png");
+}
+.profile-hover
+{
+    display: none;
+}
+.profile-card:hover .profile-hover
+{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    width: 80vw;
+    height: 65vh;
+    background-color: var(--off-white);
+    padding: 4rem;
+    overflow: auto;
+
+    opacity: 0;
+    z-index: -100;
+    animation: appear 0.5s ease 0.7s forwards,
+    profile-pop-up 0s steps(1) 0.7s forwards;
+}
+.profile-header
+{
+    display: flex;
+    flex-direction: row;
+}
+.picture
+{
+    width: 20vw;
+}
+.profil-name
+{
+    width: 60vw;
+}
+#admin
+{
+    padding-top: 100px;
+}
+
+
+/* ---------------------------------------------- */
+/* Mobile                                         */
+/* ---------------------------------------------- */
+@media screen and (max-width: 1199px) {
+    
+    #hero
+    {
+        margin-top: 3rem;
+    }
+    #hero h1
+    {
+        font-size: 1.5rem;
+        padding: 4rem 2rem;
+    }
+    #about .row
+    {
+        margin-top: 2rem;
+        padding: 2rem;
+    }
+    #about video 
+    {
+        display: none;
+    }
+    #about .right
+    {
+        padding: 2rem;
+    }
+    #about .right a:hover
+    {
+        margin-left: 0;
+    }
+    #president h2::before
+    {
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #president h2::after
+    {
+
+        bottom: 0;
+        right: 50%;
+        transform: translate(50%, 75%)
+    }
+    #page-president
+    {
+        margin-top: 2rem;
+        padding-inline: 2rem;
+    }
+    .profile-card
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #admin
+    {
+        margin-bottom: 5rem;
+    }
+    .profile-card:hover .profile-hover
+    {
+        padding: 4rem 2rem;
+    }
+}
+
+
+
+/* ---------------------------------------------- */
+/* Keyframes                                      */
+/* ---------------------------------------------- */
+@keyframes hero-h1
+{
+    to
+    {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes appear
+{
+    to 
+    {
+        opacity: 1;
+    }
+}
+@keyframes profile-pop-up
+{
+    to
+    {
+        z-index: 100;
+    }
+}

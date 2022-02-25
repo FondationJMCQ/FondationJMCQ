@@ -1,0 +1,152 @@
+/* ---------------------------------------------- */
+/* Adjustements                                   */
+/* ---------------------------------------------- */
+#menu span h5
+{
+    color: #111;
+}
+#nav-logo
+{
+    color: #111;
+}
+
+:root
+{
+
+    /* Colors */
+    --text-color: hsl(230, 8%, 10%);
+    --off-white: hsl(223, 33%, 96%);
+    --accent: #3db2ff;
+    --accent-dark: hsl(211,94%,34%);
+
+}
+
+/* ---------------------------------------------- */
+/* Programmes                                     */
+/* ---------------------------------------------- */
+.hero
+{
+    background-image: url("../img/programsHeroBG.jpeg");
+    background-size: cover;
+    background-position: top center;
+    margin-top: 6rem;
+}
+.hero-overlay
+{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100%;
+}
+.hero h1
+{
+    color: #fff;
+    font-size: 5rem;
+    padding: 15rem 5rem;
+
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: hero-h1 1.5s ease forwards;
+}
+#overview a
+{
+    background-color: var(--accent);
+    border: 4px solid var(--accent);
+    color: #fff;
+}
+section
+{
+    padding-top: 110px;
+    margin-top: 0;
+}
+.program
+{
+    background-color: var(--off-white);
+    padding: 2rem;
+    font-size: 0.9rem;
+}
+.program h2
+{
+    color: var(--accent);
+}
+.program ul
+{
+    padding-left: 2rem;
+    list-style: circle;
+}
+.program .button-col
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-btn
+{
+    border-radius: 30px;
+    background-color: var(--accent);
+    color: var(--off-white);
+    padding: 0.5em 1.5em;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    transition: 0.5s;
+}
+.form-btn:hover
+{
+    padding-inline: 3em;
+    color: var(--off-white);
+}
+#groups
+{
+    margin-bottom: 110px;
+}
+
+
+
+
+
+/* ---------------------------------------------- */
+/* Mobile                                         */
+/* ---------------------------------------------- */
+@media screen and (max-width: 1199px) {
+    
+    .hero
+    {
+        background-image: url("../img/programsHeroBG.jpeg");
+        background-size: cover;
+        background-position: top center;
+        margin-top: 3rem;
+    }
+    .hero h1
+    {
+        font-size: 1.5rem;
+        padding: 4rem 2rem;
+    }
+    #overview
+    {
+        padding: 2rem;
+    }
+    section
+    {
+        padding-top: 2rem;
+    }
+
+}
+
+
+
+
+
+/* ---------------------------------------------- */
+/* Keyframes                                      */
+/* ---------------------------------------------- */
+@keyframes hero-h1
+{
+    to
+    {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

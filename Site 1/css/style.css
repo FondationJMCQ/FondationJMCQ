@@ -1,0 +1,1245 @@
+body, html { height: 100%;
+  margin: 0%;  
+}
+/* **********************************************************************************  BACKGROUND  ************************************************************************************/
+.bginfo
+{
+background: rgba(255, 255, 255);
+}
+
+.info
+{
+padding-top: 10px ;
+margin-left: 40px;
+}
+
+.btndon1
+{
+    background-color: rgb(232, 23, 23);
+    border-radius: 25px ;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  .btndon2
+{
+    background-color: rgb(232, 23, 23);
+    border-radius: 45px ;
+    border: none;
+    color: white;
+    padding: 20px;
+
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+.bg1{
+    background-image: url("../img/main.jpg");
+    background-attachment: fixed; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.bgh1{
+margin-top :60px ;
+margin-bottom: 60px;
+color: white;
+background-color: rgb(223, 221, 221 , .80);
+border-radius: 15px ;
+padding-bottom: 20px ;
+padding-top: 20px ;
+padding-right: 30px ;
+padding-left: 30px ;
+}
+
+.bg4{
+background-color: white;
+  }
+
+
+.bg5
+{
+background-color: rgb(235, 235, 235);
+}
+
+.bg6
+{
+background-color: rgb(255, 255, 255);
+padding-left: 300px;
+padding-right: 300px;
+}
+
+.bgpres{
+
+  background-color: rgb(201, 201, 201);
+  padding-top: 20px;
+}
+
+.bgvision
+ {
+  background-color: rgb(235, 235, 235);
+  margin-top: 30px;
+}
+
+.bgend
+{
+  background-image: url("../img/main.jpg");
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bgfond{
+  background-image: url("../img/kidlaught.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.bgevent{
+  background-image: url("../img/kidplay.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.bgsoutenez{
+  background-image: url("../img/mainbleu.jpg");
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.bggalerie{
+  background-image: url("../img/spiderman.jpg");
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: cover;
+  color: white;
+}
+
+.bgtarget{
+  background-image: url("../img/target.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200px;
+  color: white;
+}
+
+.bgap1
+{
+  background-image: url("../img/AP1.jpg");
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.bgap2
+{
+  background-image: url("../img/AP2.jpg");
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.bgap3
+{
+  background-image: url("../img/AP3.jpg");
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.bgap4
+{
+  background-image: url("../img/AP4.jpg");
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.bgap5
+{
+  background-image: url("../img/AP5.jpg");
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.bgap6
+{
+  background-image: url("../img/AP6.jpg");
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.bgap7
+{
+  background-image: url("../img/AP7.jpg");
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.bgap8
+{
+  background-image: url("../img/AP8.jpg");
+  background-attachment: fixed;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+/* **********************************************************************************  IMAGE   ************************************************************************************/
+.imground{
+
+  padding-top: 25px;
+}
+
+.imgtarget{
+padding-left: 75px;
+}
+
+/* **********************************************************************************  TITRE + TXT  ************************************************************************************/
+
+.titre1{
+    font-size: 65px;
+    color: rgb(41, 41, 41);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.titre2{
+    font-size: 65px;
+    color: rgb(232, 23, 23);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.titreavec{
+  font-size: 65px;
+  color: rgb(41, 41, 41);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titre3{
+
+    color: rgb(78, 78, 78);
+    padding-left:40px;
+    padding-left:40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titre4{
+
+    color: rgb(41, 41, 41);
+    padding-top:60px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 15px;
+}
+
+
+.titre5{
+
+  color: rgb(41, 41, 41);
+  padding-top:80px ;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-bottom: 70px;
+}
+
+.titre6{
+
+  color: rgb(232, 23, 23);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.titrefondation{
+
+  color: rgb(41, 41, 41);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+  padding-top: 10px;
+
+}
+.txtfondation
+{
+  font-size: 18px; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(41, 41, 41);
+  padding-bottom: 15px;
+}
+
+.txtAD
+{
+  font-size: 18px; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  padding-bottom: 15px;
+}
+
+.txtvaleur
+{
+  font-size: 18px; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(41, 41, 41);
+  padding-bottom: 15px;
+}
+
+.txtvaleur1
+{
+  font-size: 15px; 
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: rgb(41, 41, 41);
+}
+
+.txtvaleur2
+{
+  font-size: 25px; 
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: rgb(41, 41, 41);
+}
+
+.txtsout
+{
+  font-size: 17px; 
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: rgb(41, 41, 41);
+}
+
+.txtcons
+{
+  font-size: 15px; 
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: rgb(41, 41, 41);
+   padding: 5px;
+}
+
+.txtmission
+{
+   font-size: 18px;
+   padding: 20px; 
+   padding-top: 40px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: rgb(73, 73, 73);
+}
+.txtmission2
+{
+   font-size: 25px; 
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: rgb(73, 73, 73);
+}
+
+.txtmission3
+{
+   font-size: 15px; 
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: rgb(73, 73, 73);
+}
+
+.txtmission3:hover
+{
+color: #008fb3;
+}
+
+.txtmission4
+{
+   font-size: 25px; 
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: rgb(73, 73, 73);
+}
+
+.txtalaune1
+{
+   font-size: 25px; 
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: rgb(41, 41, 41);
+   padding-bottom: 10px;
+   padding-top: 10px;
+}
+
+.txtalaune2
+{
+  font-size: 15px; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(14, 14, 14);
+  padding-top: 15px;
+}
+
+.txtalaune3
+{
+   font-size: 22px; 
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: rgb(41, 41, 41);
+   padding-bottom: 10px;
+   padding-top: 10px;
+}
+
+.txtalaune3:hover
+{
+  color: rgb(0, 0, 0)
+
+}
+
+.txtend{
+  color: rgb(22, 22, 22);
+  margin-top: 100px;
+  text-decoration: none;
+
+}
+.txtend2{
+  color: rgb(22, 22, 22);
+  text-decoration: none;
+
+}
+
+.txtend:hover{
+  color: rgb(232, 23, 23);
+  text-decoration: none;
+
+}
+.txtend2:hover{
+  color: rgb(232, 23, 23);
+  text-decoration: none;
+
+}
+
+.txtpresident
+{
+  font-size: 25px; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(41, 41, 41);
+  padding: 15px;
+}
+
+.txtpresident1
+{
+  font-size: 18px; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(41, 41, 41);
+  padding-bottom: 15px;
+}
+
+.txtpresident2
+{
+  font-size: 25px; 
+  color: rgb(232, 23, 23);
+  padding: 15px;
+}
+
+.titreblack{
+  font-size: 50px;
+  color: rgb(41, 41, 41);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-top: 35px;
+}
+.titrered{
+  font-size: 50px;
+  color: rgb(232, 23, 23);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titreblack1{
+  font-size: 50px;
+  color: rgb(41, 41, 41);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titreblack2{
+  font-size: 35px;
+  color: rgb(41, 41, 41);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.titrered2{
+  font-size: 35px;
+  color: rgb(232, 23, 23);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titreblack3{
+  font-size: 50px;
+  color: rgb(41, 41, 41);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.titrered3{
+  font-size: 50px;
+  color: rgb(232, 23, 23);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titreblack4{
+  font-size: 50px;
+  color: rgb(41, 41, 41);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 160px;
+  
+}
+.titrered4{
+  font-size: 50px;
+  color: rgb(232, 23, 23);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titreAP
+{
+   padding-top: 190px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titreAP2
+{
+   padding-top: 20px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.titreAP3
+{
+   padding-top: 17px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titreAP4
+{
+   padding-top: 70px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.txtAP
+{
+  font-size: 18px; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+  padding-bottom: 15px;
+}
+
+.txtcons1
+{
+  font-size: 15px; 
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: rgb(255, 255, 255);
+   padding: 5px;
+}
+
+.txtCA
+{
+   font-size: 25px; 
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: rgb(0, 0, 0);
+   padding-top: 15px;
+}
+.txtCA2
+{
+   font-size: 15px; 
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: rgb(0, 0, 0);
+   
+
+}
+/* ************************************************************************* NAV - PADDING - FONTAWESME  ************************************************************************************/
+.padinfo
+{
+padding-top: 40px;
+}
+
+.padjoindre
+{
+padding-top: 170px;
+}
+
+.HR { 
+  border-bottom: 5px solid rgb(41, 41, 41) ;
+  width: 50%;
+  opacity: 1;
+  margin: auto;
+}
+
+.farouge 
+{ 
+    color: rgb(232, 23, 23); 
+}
+.fablack
+{ 
+    color: black
+}
+
+.infobar
+{
+padding-left: 37px;
+color: grey;
+}
+
+.nav-link:hover{
+  color: rgb(232, 23, 23) !important;
+}
+
+a:link
+{
+text-decoration: none;
+}
+
+.active
+{
+  color: rgb(232, 23, 23) !important;
+}
+
+.map
+ {
+  width:1920px;
+  height:550px;
+}
+
+/* **********************************************************************************  BOUTTON  ************************************************************************************/
+.button {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    border-radius: 10rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 0.15rem;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+  }
+  .button:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(232, 23, 23);
+    border-radius: 10rem;
+    z-index: -2;
+  }
+  .button:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #008fb3;
+    transition: all 0.3s;
+    border-radius: 10rem;
+    z-index: -1;
+  }
+  .button:hover {
+    color: #fff;
+  }
+  .button:hover:before {
+    width: 100%;
+  }
+
+  .button1 {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    border-radius: 10rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 0.15rem;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+  .button1:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(232, 23, 23);
+    border-radius: 10rem;
+    z-index: -2;
+  }
+  .button1:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #008fb3;
+    transition: all 0.3s;
+    border-radius: 10rem;
+    z-index: -1;
+  }
+  .button1:hover {
+    color: #fff;
+  }
+  .button1:hover:before {
+    width: 100%;
+  }
+
+  .button2 {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    border-radius: 10rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 0.15rem;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  
+  }
+  .button2:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(232, 23, 23);
+    border-radius: 10rem;
+    z-index: -2;
+  }
+  .button2:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #008fb3;
+    transition: all 0.3s;
+    border-radius: 10rem;
+    z-index: -1;
+  }
+  .button2:hover {
+    color: #fff;
+  }
+  .button2:hover:before {
+    width: 100%;
+  }
+
+  .button3 {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    border-radius: 10rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 0.15rem;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  
+  }
+  .button3:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#008fb3;
+    border-radius: 10rem;
+    z-index: -2;
+  }
+  .button3:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: rgb(232, 23, 23);
+    transition: all 0.3s;
+    border-radius: 10rem;
+    z-index: -1;
+  }
+  .button3:hover {
+    color: #fff;
+  }
+  .button3:hover:before {
+    width: 100%;
+  }
+  
+
+/* **********************************************************************************  IPHONE  ************************************************************************************/
+  @media only screen 
+  and (max-width: 577px) 
+{
+
+  .bg1{
+    height: auto;
+  }
+  .bginfo
+  {
+    font-size: small;
+  }
+
+.bgh1{
+
+  background-color: rgb(223, 221, 221 , .80);
+  border-radius: 0px ;
+  padding-bottom: 20px ;
+  padding-top: 20px ;
+  padding-right: 30px ;
+  padding-left: 30px ;
+  }
+
+  .bgtarget{
+  background-image: url("../img/target.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 200px;
+  color: white;
+}
+.titre1
+{
+font-size: 40px;
+padding-top: 200px;
+}
+
+.titreavec
+{
+  font-size: 40px;
+}
+.titre2
+{
+  font-size: 40px;
+}
+ 
+.txtvaleur2
+{
+  font-size:16px;
+  padding: 0px;
+
+}
+.txtvaleur1
+{
+  font-size:14px;
+  padding : 0px;
+}
+
+.button
+{
+  font-size: 13px;
+}
+.button1
+{
+  font-size: 10px;
+}
+
+.titre3
+{
+  color: rgb(78, 78, 78);
+  padding-left:0px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titreblack{
+  font-size: 30px;
+  color: rgb(41, 41, 41);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.titrered{
+  font-size: 30px;
+  color: rgb(232, 23, 23);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titreblack1{
+  font-size: 35px;
+  color: rgb(41, 41, 41);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titreblack2{
+  font-size: 35px;
+  color: rgb(41, 41, 41);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titreblack3{
+  font-size: 30px;
+  color: rgb(41, 41, 41);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top:180px;
+}
+.titrered3{
+  font-size: 30px;
+  color: rgb(232, 23, 23);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-top:180px;
+}
+
+.titreblack4{
+  font-size: 50px;
+  color: rgb(41, 41, 41);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 40px;
+  padding-top : 30px;
+  
+}
+.titrered4{
+  font-size: 50px;
+  color: rgb(232, 23, 23);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.txtmission
+{
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.txtmission3
+{
+  font-size: 13px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.txtcons
+{
+  font-size: 17px;
+}
+
+
+.imground
+{
+  width: 250px;
+  padding-top: 15px;
+}
+
+.button3{
+  font-size: 8px;
+  margin-left:20px
+}
+.padjoindre
+{
+  margin-left:0px ;
+  padding-top: 150px ;
+}
+
+.txtcons1 , .txtAP
+{
+padding-left: 40px;
+padding-right: 20px;
+}
+
+ .txtfondation 
+{
+padding-left: 0px;
+padding-right: 0px;
+}
+
+.txtAD
+{
+  font-size: 18px; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.titreAP4, .titreAP3 ,.titreAP, .titreAP2 
+{
+  font-size: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+} 
+
+.txtCA2
+{
+  padding-right: 20px;
+  padding-left: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+}
+
+
+
+/* **********************************************************************************  IPAD  ************************************************************************************/
+@media only screen 
+and (min-width : 600px) 
+and (max-width : 1024px) 
+ {
+
+.bg1
+{
+height: auto;
+}
+
+.bginfo
+{
+font-size: small;
+}
+
+.bgh1
+{
+background-color: rgb(223, 221, 221 , .80);
+border-radius: 0px ;
+padding-bottom: 20px ;
+padding-top: 20px ;
+padding-right: 30px ;
+padding-left: 30px ;
+ }
+
+.imground
+{
+width: 250px;
+padding-top: 15px;
+}
+
+.titre1
+{
+font-size: 40px;
+padding-top: 200px;
+}
+
+.titreavec , .titre2
+{
+  font-size: 40px;
+}
+
+.titre3
+{
+color: rgb(78, 78, 78);
+padding-left:0px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titreblack
+{
+font-size: 35px;
+color: rgb(41, 41, 41);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+padding-top: 35px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.titrered
+{
+font-size: 35px;
+color: rgb(232, 23, 23);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  
+.titreblack1
+{
+font-size: 35px;
+color: rgb(41, 41, 41);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  
+.titreblack2
+{ 
+font-size: 35px;
+color: rgb(41, 41, 41);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+padding-top: 35px;
+padding-bottom: 35px;
+}
+
+.titreblack3
+{
+  font-size: 30px;
+  color: rgb(41, 41, 41);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top:550px;
+}
+.titrered3
+{
+  font-size: 30px;
+  color: rgb(232, 23, 23);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-top:550px;
+}
+
+.titreblack4
+{
+  font-size: 50px;
+  color: rgb(41, 41, 41);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 80px;
+  padding-top : 20px;
+  
+}
+.titrered4
+{
+  font-size: 50px;
+  color: rgb(232, 23, 23);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titreAP
+{
+ padding-top: 290px;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  .txtvaleur2
+{
+  font-size:20px;
+  padding: 0px;
+
+}
+.txtvaleur1
+{
+  font-size:25x;
+  padding : 0px;
+}
+
+.txtmission
+{
+  font-size: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.txtfondation
+{
+  font-size: 18px; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(41, 41, 41);
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.txtmission
+{
+  font-size: 18px; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(41, 41, 41);
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.txtmission3
+{
+  font-size: 17px; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(41, 41, 41);
+}
+
+.txtCA2
+{
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.txtpresident2
+{
+  font-size: 26px;
+}
+
+.txtsout
+{
+  font-size : 18px;
+}
+
+.txtAD
+{
+  font-size: 18px; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.button
+{
+  font-size: 5px;
+}
+.button1
+{
+font-size: 10px;
+}
+.button3{
+  font-size: 10px;
+  margin-left:20px
+}
+.padjoindre
+{
+  margin-left:0px ;
+  padding-top: 150px ;
+}
+
+ .txtfondation ,.txtcons1 , .txtAP 
+{
+padding-left: 20px;
+padding-right: 20px;
+}
+
+
+.button {
+  font-size: 20px;
+}
+
+.farouge 
+{ 
+    color: rgb(232, 23, 23); 
+}
+.fablack
+{ 
+    color: black
+}
+
+.titreAP4, .titreAP3 ,.titreAP, .titreAP2 
+{
+  font-size: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+} 
+
+}

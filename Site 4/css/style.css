@@ -1,0 +1,1082 @@
+body, html{
+    height: 100%;
+    margin: 0%;
+}
+
+
+/* PC */
+@media screen and (min-width: 992px) {
+  .title{
+    font-size: 60px !important;
+  }
+  .title-xl{
+    font-size: 80px !important;
+  } 
+  .title-main{
+    font-size: 175px !important;
+    background-position: absolute;
+  }
+  .pcNo{
+    display: none;
+  }
+  .pt-mission{
+    padding-top: 48px;
+  }
+  .ps-Admin{
+    padding-left: 24px;
+  }
+  .pb-AdminPc{
+    padding-bottom: 48px;
+  }
+  .vl {
+    border-left: 2px solid #212529;
+    height: 60px;
+  }
+  .parallaxProg{
+    background-image: url(../img/prog.jpg);
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 112px;
+  }
+  .parallaxNews{
+    background-image: url(../img/news.jpg);
+    height: 700px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 112px;
+    filter: blur(2px);
+    -webkit-filter: blur(2px); 
+  }
+  .parallaxProg1{
+    background-image: url(../img/prog1.jpg);
+    height: 600px;
+    width: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallaxProg2{
+    background-image: url(../img/prog2.jpg);
+    height: 600px;
+    width: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallaxProg3{
+    background-image: url(../img/prog3jpg.jpg);
+    height: 600px;
+    width: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallaxProg4{
+    background-image: url(../img/prog4.jpg);
+    height: 600px;
+    width: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallaxProg5{
+    background-image: url(../img/prog5.jpg);
+    height: 600px;
+    width: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallaxProg6{
+    background-image: url(../img/prog6.jpg);
+    height: 600px;
+    width: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallaxProg7{
+    background-image: url(../img/prog7.jpg);
+    height: 600px;
+    width: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallaxProg8{
+    background-image: url(../img/prog8.jpg);
+    height: 600px;
+    width: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bgTransProg{
+    background-color: black;
+    opacity: 75%;
+    height: 500px;
+  }
+  .py-form{
+    padding-top: 96px;
+    padding-bottom: 48px;
+  }.py-montant{
+    padding-top: 48px;
+    padding-bottom: 96px;
+  }
+  .bg-text-index {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+  }
+  .bg-image-index {
+    /* The image used */
+    background-image: url("../img/index.jpg");
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    /* Full height */
+    height: 800px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+/* Cellulaire */
+@media screen and (max-width: 480px) {
+  .cellNo{
+    display: none;
+  } 
+  .title{
+    font-size: 40px !important;
+  }
+  .title-xl{
+    font-size: 60px !important;
+  } 
+  .fbCell{
+    float: left;
+  }
+  .pb-Admin{
+    padding-bottom: 24px;
+  }
+  .bgBienvenue{
+    background-color: #0092A9;
+  }
+  .px-mission{
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .parallaxProg{
+    background-image: url(../img/prog.jpg);
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 112px;
+  }
+  .parallaxNews{
+    background-image: url(../img/news.jpg);
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 112px;
+  }
+  .bgTransProg{
+    background-color: black;
+    opacity: 75%;
+    height: 100%;
+  }
+  .bgProg{
+    background-color: #F5F5F5;
+  }
+  .bgProg2{
+    background-color: #0092A9;
+  }
+  .py-form{
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }.py-montant{
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .bg-text-index {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+  }
+  .bg-image-index {
+    /* The image used */
+    background-image: url("../img/index.jpg");
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    /* Full height */
+    height: 600px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .text-center-cell{
+    text-align: center;
+  }
+}
+
+/* Tablette */
+@media screen and (min-width: 481px) and (max-width: 991px){
+  .tabNo{
+    display: none;
+  } 
+  .title{
+    font-size: 60px !important;
+  }
+  .title-xl{
+    font-size: 80px !important;
+  }
+  .fbCell{
+    float: left;
+  }
+  .pb-Admin{
+    padding-bottom: 24px;
+  }
+  .bgBienvenue{
+    background-color: #0092A9;
+  }
+  .vl {
+    border-left: 2px solid #212529;
+    height: 60px;
+  }
+  .px-mission{
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .parallaxProg{
+    background-image: url(../img/prog.jpg);
+    height: 650px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 112px;
+  }
+  .parallaxNews{
+    background-image: url(../img/news.jpg);
+    height: 650px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 112px;
+  }
+  .bgTransProg{
+    background-color: black;
+    opacity: 75%;
+    height: 100%;
+  }
+  .bgProg{
+    background-color: #F5F5F5;
+  }
+  .bgProg2{
+    background-color: #0092A9;
+  }
+  .py-form{
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }.py-montant{
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .bg-text-index {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+  }
+  .bg-image-index {
+    /* The image used */
+    background-image: url("../img/index.jpg");
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    /* Full height */
+    height: 900px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .text-center-cell{
+    text-align: center;
+  }
+}
+
+.bg-border{
+  border-top: 4px solid #212529;
+}
+.bg-image-prog {
+  /* The image used */
+  background-image: url("../img/prog.jpg");
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-image-news {
+  /* The image used */
+  background-image: url("../img/bg1.jpg");
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-image-event {
+  /* The image used */
+  background-image: url("../img/bg2.jpg");
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-image-galerie {
+  /* The image used */
+  background-image: url("../img/bg3.jpg");
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-image-joindre {
+  /* The image used */
+  background-image: url("../img/bg4.jpg");
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-text {
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+}
+h1, h2, h3, h4, h5{
+  font-family: 'Bebas Neue' !important;
+}
+p{
+  color: #929292;
+  font-size: large;
+}
+.p-white{
+  color: white !important;
+}
+.fontAlt{
+  font-family: 'Brush Script MT', cursive !important; 
+  font-size: 45px;
+}
+.fontAdmin{
+  font-size: 15px;
+}
+.h-car{
+  height: 667px;
+}
+
+
+
+.clr1{
+    background-color: #0092A9;
+}
+.clr2{
+    background-color: #929292;
+}
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #0092A9  !important;
+}
+
+
+
+header {
+    position: relative;
+    background-color: black;
+    height: 85vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+header .container-fluid {
+    position: relative;
+    z-index: 2;
+} 
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+ /* Media Query for devices withi coarse pointers and no hover functionality */
+ /* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
+@media (pointer: coarse) and (hover: none) {
+    header {
+      background: url('../img/MotsPrésident.jfif') black no-repeat center center scroll;
+    }
+  
+    header video {
+      display: none;
+    }
+}
+
+
+
+/* Parallax */
+.parallax{
+  background-image: url(../img/Bienvenue2.jfif);
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2{
+  background-image: url(../img/MotsPrésident.jfif);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+.bgTrans{
+  background-color: black;
+  opacity: 75%;
+}
+.bgPied{
+  background-color: #212529;
+}
+.img-border{
+  border: 8px solid #212529;
+}
+.img-border2{
+  border: 8px solid white;
+}
+.bgMission{
+  background-color: #F5F5F5;
+}
+.bgVal{
+  font-size:x-large;
+}
+.pb-val{
+  padding-bottom: 150px;
+}
+.pt-prog{
+  padding-top: 75px;
+}
+.img-admin{
+  object-fit: cover;
+  width:270px;
+  height:270px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.btn{
+	box-shadow: none !important
+}
+.news-border{
+  border-top: 4px solid #212529;
+  border-bottom: 4px solid #212529;
+}
+.news-border2{
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+}
+.img-center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/* Liens */
+a:link{
+  text-decoration: none;
+  color: #0092A9;
+}
+a:hover{
+  text-decoration: none;
+  color: #0092A9 !important;
+}
+a:visited{
+  text-decoration: none;
+  color: #0092A9;
+}
+
+/* Overlay image */
+#picture1 {
+  width: 270px;
+  height: 270px;
+  background: url("../img/Admin/JessyBélanger.jpeg") no-repeat;
+  background-size: 270px 270px;
+  border: 8px solid #212529;
+  position: relative;    
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+   box-sizing: border-box;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#picture1:hover .pic_transform {
+      height: 100%;
+}
+#picture1:hover .text_display {
+     background: rgba(0, 0, 0, 0.5);   
+     color: #fff;   
+     height: 100%;   
+}
+
+#picture2 {
+  width: 270px;
+  height: 270px;
+  background: url("../img/Admin/JohnathanBlais.jpg") no-repeat;
+  background-size: 270px 270px;
+  border: 8px solid #212529;
+  position: relative;    
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+   box-sizing: border-box;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#picture2:hover .pic_transform {
+      height: 100%;
+}
+#picture2:hover .text_display {
+     background: rgba(0, 0, 0, 0.5);   
+     color: #fff;   
+     height: 100%;   
+}
+
+#picture3 {
+  width: 270px;
+  height: 270px;
+  background: url("../img/Admin/The GOAT.jpg") no-repeat;
+  background-size: 270px 270px;
+  border: 8px solid #212529;
+  position: relative;    
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+   box-sizing: border-box;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#picture3:hover .pic_transform {
+      height: 100%;
+}
+#picture3:hover .text_display {
+     background: rgba(0, 0, 0, 0.5);   
+     color: #fff;   
+     height: 100%;   
+}
+
+#picture4 {
+  width: 270px;
+  height: 270px;
+  background: url("../img/Admin/PatrickBuisson.jpg") no-repeat;
+  background-size: 270px 270px;
+  border: 8px solid #212529;
+  position: relative;    
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+   box-sizing: border-box;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#picture4:hover .pic_transform {
+      height: 100%;
+}
+#picture4:hover .text_display {
+     background: rgba(0, 0, 0, 0.5);   
+     color: #fff;   
+     height: 100%;   
+}
+
+#picture5 {
+  width: 270px;
+  height: 270px;
+  background: url("../img/Admin/AlexMartin.png") no-repeat;
+  background-size: 270px 270px;
+  border: 8px solid #212529;
+  position: relative;    
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+   box-sizing: border-box;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#picture5:hover .pic_transform {
+      height: 100%;
+}
+#picture5:hover .text_display {
+     background: rgba(0, 0, 0, 0.5);   
+     color: #fff;   
+     height: 100%;   
+}
+
+#picture6 {
+  width: 270px;
+  height: 270px;
+  background: url("../img/Admin/AlbertBrunelle.png") no-repeat;
+  background-size: 270px 270px;
+  border: 8px solid #212529;
+  position: relative;    
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+   box-sizing: border-box;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#picture6:hover .pic_transform {
+      height: 100%;
+}
+#picture6:hover .text_display {
+     background: rgba(0, 0, 0, 0.5);   
+     color: #fff;   
+     height: 100%;   
+}
+
+#picture7 {
+  width: 270px;
+  height: 270px;
+  background: url("../img/Admin/MikaelGuillemette.png") no-repeat;
+  background-size: 270px 270px;
+  border: 8px solid #212529;
+  position: relative;    
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+   box-sizing: border-box;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#picture7:hover .pic_transform {
+      height: 100%;
+}
+#picture7:hover .text_display {
+     background: rgba(0, 0, 0, 0.5);   
+     color: #fff;   
+     height: 100%;   
+}
+
+#picture8 {
+  width: 270px;
+  height: 270px;
+  background: url("../img/Admin/jason-luckerhoff.png") no-repeat;
+  background-size: 270px 270px;
+  border: 8px solid #212529;
+  position: relative;    
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+   box-sizing: border-box;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#picture8:hover .pic_transform {
+      height: 100%;
+}
+#picture8:hover .text_display {
+     background: rgba(0, 0, 0, 0.5);   
+     color: #fff;   
+     height: 100%;   
+}
+
+
+#picture9 {
+  width: 270px;
+  height: 270px;
+  background: url("../img/Admin/FrancisJutras.png") no-repeat;
+  background-size: 270px 270px;
+  border: 8px solid #212529;
+  position: relative;    
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+   box-sizing: border-box;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#picture9:hover .pic_transform {
+      height: 100%;
+}
+#picture9:hover .text_display {
+     background: rgba(0, 0, 0, 0.5);   
+     color: #fff;   
+     height: 100%;   
+}
+
+#picture10 {
+  width: 270px;
+  height: 270px;
+  background: url("../img/Admin/marie-soleil.png") no-repeat;
+  background-size: 270px 270px;
+  border: 8px solid #212529;
+  position: relative;    
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+   box-sizing: border-box;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#picture10:hover .pic_transform {
+      height: 100%;
+}
+#picture10:hover .text_display {
+     background: rgba(0, 0, 0, 0.5);   
+     color: #fff;   
+     height: 100%;   
+}
+
+#picture11 {
+  width: 270px;
+  height: 270px;
+  background: url("../img/Admin/mylene-gp.png") no-repeat;
+  background-size: 270px 270px;
+  border: 8px solid #212529;
+  position: relative;    
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+   box-sizing: border-box;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#picture11:hover .pic_transform {
+      height: 100%;
+}
+#picture11:hover .text_display {
+     background: rgba(0, 0, 0, 0.5);   
+     color: #fff;   
+     height: 100%;   
+}
+
+#picture12 {
+  width: 270px;
+  height: 270px;
+  background: url("../img/Admin/johanne-vachon.png") no-repeat;
+  background-size: 270px 270px;
+  border: 8px solid #212529;
+  position: relative;    
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+   box-sizing: border-box;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#picture12:hover .pic_transform {
+      height: 100%;
+}
+#picture12:hover .text_display {
+     background: rgba(0, 0, 0, 0.5);   
+     color: #fff;   
+     height: 100%;   
+}
+
+#picture13 {
+  width: 270px;
+  height: 270px;
+  background: url("../img/Admin/audrey-forest.png") no-repeat;
+  background-size: 270px 270px;
+  border: 8px solid #212529;
+  position: relative;    
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+   box-sizing: border-box;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#picture13:hover .pic_transform {
+      height: 100%;
+}
+#picture13:hover .text_display {
+     background: rgba(0, 0, 0, 0.5);   
+     color: #fff;   
+     height: 100%;   
+}
+
+#picture14 {
+  width: 270px;
+  height: 270px;
+  background: url("../img/Admin/stephane-genereux.png") no-repeat;
+  background-size: 270px 270px;
+  border: 8px solid #212529;
+  position: relative;    
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+   box-sizing: border-box;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#picture14:hover .pic_transform {
+      height: 100%;
+}
+#picture14:hover .text_display {
+     background: rgba(0, 0, 0, 0.5);   
+     color: #fff;   
+     height: 100%;   
+}
+
+#picture15 {
+  width: 270px;
+  height: 270px;
+  background: url("../img/Admin/Fondation-Jeunesse-Dominic-Boucher.png") no-repeat;
+  background-size: 270px 270px;
+  border: 8px solid #212529;
+  position: relative;    
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+   box-sizing: border-box;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#picture15:hover .pic_transform {
+      height: 100%;
+}
+#picture15:hover .text_display {
+     background: rgba(0, 0, 0, 0.5);   
+     color: #fff;   
+     height: 100%;   
+}
+
+#picture16 {
+  width: 270px;
+  height: 270px;
+  background: url("../img/Admin/Fondation-Jeunesse-Jerome-Gagnon-1-530x530.png") no-repeat;
+  background-size: 270px 270px;
+  border: 8px solid #212529;
+  position: relative;    
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+   box-sizing: border-box;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#picture16:hover .pic_transform {
+      height: 100%;
+}
+#picture16:hover .text_display {
+     background: rgba(0, 0, 0, 0.5);   
+     color: #fff;   
+     height: 100%;   
+}
+
+#picture17 {
+  width: 270px;
+  height: 270px;
+  background: url("../img/Admin/nathalie-garon2.png") no-repeat;
+  background-size: 270px 270px;
+  border: 8px solid #212529;
+  position: relative;    
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+   box-sizing: border-box;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#picture17:hover .pic_transform {
+      height: 100%;
+}
+#picture17:hover .text_display {
+     background: rgba(0, 0, 0, 0.5);   
+     color: #fff;   
+     height: 100%;   
+}
+
+#picture18 {
+  width: 270px;
+  height: 270px;
+  background: url("../img/Admin/Fondation-Jeunesse-Andre-Gabias-1.png") no-repeat;
+  background-size: 270px 270px;
+  border: 8px solid #212529;
+  position: relative;    
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+   box-sizing: border-box;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#picture18:hover .pic_transform {
+      height: 100%;
+}
+#picture18:hover .text_display {
+     background: rgba(0, 0, 0, 0.5);   
+     color: #fff;   
+     height: 100%;   
+}
+
+
+
+.pic_transform {
+    transition-duration: 0.5s;            
+    -webkit-transition-duration: 0.5s; 
+    -moz-transition-duration: 0.5s;    
+    -o-transition-duration: 0.5s;
+     overflow: hidden;
+     height: 0px;
+}
+
+.text_display {
+    transform-origin: top;               
+    transition-duration: 0.5s;               
+    -webkit-transform-origin: top;       
+    -webkit-transition-duration: 0.5s;   
+    -moz-transform-origin: top;           
+    -moz-transition-duration: 0.5s;       
+    -o-transform-origin: top;    
+    -o-transition-duration: 0.5s;       
+    font-weight: normal;
+    text-align:center;
+    color: #FFF;       
+}
+
+
+

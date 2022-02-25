@@ -1,0 +1,1020 @@
+html, body {
+    height: 100%;
+}
+
+hr {
+    width: auto;
+    border-top: 5px solid rgb(0, 146, 169);
+}
+
+a {
+    text-decoration: none;
+}
+
+.justifymylove {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.navcje {
+    height: auto;
+    width: auto;
+    background-color: #CEF8FF 50%;
+}
+
+.bleucje {
+    color: rgb(0, 146, 169);  
+}
+
+.bleucjepolice {
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: rgb(0, 146, 169);
+}
+
+.crimson {
+    color: crimson;
+}
+
+.crimsonpolice {
+    color: crimson;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.bleufacebook {
+    color: #003DA9;
+}
+
+.bleufacebookpolice {
+    color: #003DA9;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.mediumpurple {
+    color: mediumpurple;
+}
+
+.mediumpurplepolice {
+    color: mediumpurple;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.mvr {
+    color: mediumvioletred;
+}
+
+.mvrpolice {
+    color: mediumvioletred;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.police {
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.blanc {
+    color: white;
+}
+
+.textblanc {
+    color: white;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.textblanc14 {
+    color: white;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 14px;
+}
+
+.textblanc18 {
+    color: white;
+    display: inline;
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.textblancshadow {
+    color:white;
+    font-family: 'Fuzzy Bubbles', cursive;
+    text-shadow: 1px 1px black;
+}
+
+.griscje {
+    color: slategray;
+}
+
+.griscjepolice {
+    color: slategray;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.griscjepolicebold {
+    color: slategray;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-weight: bold;
+}
+
+.textcoordo {
+    color: slategray; 
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.textgriscje {
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: slategray;
+    border: slategray;
+    font-size: 18px;
+    opacity: 100%;
+    display: inline;
+}
+
+.textgriscjebold {
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: slategray;
+    border: slategray;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 100%;
+    display: inline;
+}
+
+.textbleucje {
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: rgb(0, 146, 169);
+    border: rgb(0, 146, 169);
+    font-size: 18px;
+    opacity: 100%;
+    display: inline;
+}
+
+.buttondon {
+    color: #ffffff;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 30px;
+    padding: 15px 30px;
+    letter-spacing: 1px;
+}
+
+.buttonformulaire {
+    color: #ffffff;
+    font-size: 20px;
+    border: 1px solid rgb(0, 146, 169);
+    border-radius: 30px;
+    padding: 15px 15px;
+    letter-spacing: 1px;
+}
+
+.buttonfacebook {
+    color: #ffffff;
+    font-size: 20px;
+    border: 1px solid #003DA9;
+    border-radius: 30px;
+    padding: 15px 15px;
+    letter-spacing: 1px;
+}
+
+.buttonfacebooksmol {
+    color: #ffffff;
+    font-size: 14px;
+    border: 1px solid #003DA9;
+    border-radius: 30px;
+    padding: 8px 8px;
+    letter-spacing: 1px;
+}
+
+.buttontrans {
+    background-color: transparent;
+    border: 0px;
+}
+
+.row10 {
+    height: 10%;
+}
+
+.row90 {
+    height: 90%;
+}
+
+.parallax {
+    background-image: url(../img/Famille.jpg);
+
+    height: auto;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: url(../img/Adoquicri.jpg);
+
+    height: 750px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxapropos {
+    background-image: url(../img/Familletoit.jpg);
+
+    height: auto;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxapropos2 {
+    background-image: url(../img/Adoquicri.jpg);
+
+    height: 750px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxprogrammes {
+    background-image: url(../img/Ado.jpg);
+
+    height: auto;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxevenements {
+    background-image: url(../img/jazz.jpg);
+
+    height: auto;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallaxjoindre {
+    background-image: url(../img/Telephone.jpeg);
+
+    height: auto;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgfillette {
+    background-image: url(../img/img-fillette2.jpg);
+
+    height: auto;
+
+    background-position-x: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgbleucje {
+    background-color:rgb(0, 146, 169, 0.50);
+
+    width: auto;
+}
+
+.bgappuyer {
+    position: relative;
+
+    background-image: url(../img/Policierfondjaune.jpeg);
+    
+    height: 700px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bgsoutenir {
+    position: relative;
+    background-image: url(../img/Astronautefondjaune.jpg);
+    
+    height: 700px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bgfavoriser {
+    background-image: url(../img/Cuisinierfondjaune.jpeg);
+    
+    height: 700px;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+  .bgappuyer p, .bgsoutenir p, .bgfavoriser p {
+    visibility: hidden;
+    display: block;
+
+    background-color: transparent;
+    color: white;
+  
+    position: absolute;
+  }
+  
+  .bgappuyer:hover p, .bgsoutenir:hover p, .bgfavoriser:hover p {
+    visibility: visible;
+  }
+
+.bggriscje {
+    background-color: slategray;
+}
+
+.bggriscje p, .bggriscje i {
+    color: white;
+    font-size: 12px;
+}
+
+.bgjessy {
+    background-image: url(../img/Jessybelanger.jpeg);
+
+    height: 300px;
+    width: 300px;
+
+    background-size: cover;
+}
+
+.bgjonathan {
+    background-image: url(../img/Jonathanblais.jpg);
+
+    height: 300px;
+    width: 300px;
+
+    background-size: cover;
+}
+
+.bgshany {
+    background-image: url(../img/shanycarle-780x780.jpg);
+
+    height: 300px;
+    width: 300px;
+
+    background-size: cover;
+}
+
+.bgpatrick {
+    background-image: url(../img/Patrickbuisson.jpg);
+
+    height: 300px;
+    width: 300px;
+
+    background-size: cover;
+}
+
+.bgalex {
+    background-image: url(../img/alex-martin-780x780.png);
+
+    height: 300px;
+    width: 300px;
+
+    background-size: cover;
+}
+
+.bgalbert {
+    background-image: url(../img/albert-brunelle-780x780.png);
+
+    height: 300px;
+    width: 300px;
+
+    background-size: cover;
+}
+
+.bgmikael {
+    background-image: url(../img/mikael-guillemette-780x780.png);
+
+    height: 300px;
+    width: 300px;
+
+    background-size: cover;  
+}
+
+.bgjason {
+    background-image: url(../img/jason-luckerhoff-780x780.png);
+
+    height: 300px;
+    width: 300px;
+
+    background-size: cover;  
+}
+
+.bgfrancis {
+    background-image: url(../img/francis-jutras-1-780x780.png);
+
+    height: 300px;
+    width: 300px;
+
+    background-size: cover;  
+}
+
+.bgmarieso {
+    background-image: url(../img/marie-soleil-780x780.png);
+
+    height: 300px;
+    width: 300px;
+
+    background-size: cover;  
+}
+
+.bgmylen {
+    background-image: url(../img/mylene-gp-780x780.png);
+
+    height: 300px;
+    width: 300px;
+
+    background-size: cover;  
+}
+
+.bgjohanne {
+    background-image: url(../img/johanne-vachon-780x780.png);
+
+    height: 300px;
+    width: 300px;
+
+    background-size: cover;  
+}
+
+.bgaudrey {
+    background-image: url(../img/audrey-forest-780x780.png);
+
+    height: 300px;
+    width: 300px;
+
+    background-size: cover;  
+}
+
+.bgstephan {
+    background-image: url(../img/stephane-genereux-780x780.png);
+
+    height: 300px;
+    width: 300px;
+
+    background-size: cover;  
+}
+
+.bgdominic {
+    background-image: url(../img/Dominicboucher.png);
+
+    height: 300px;
+    width: 300px;
+
+    background-size: cover;  
+}
+
+.bgjerome {
+    background-image: url(../img/Jeromegagnon.png);
+
+    height: 300px;
+    width: 300px;
+
+    background-size: cover;  
+}
+
+.bgnathalie {
+    background-image: url(../img/nathalie-garon2-780x780.png);
+
+    height: 300px;
+    width: 300px;
+
+    background-size: cover;  
+}
+
+.bgandre {
+    background-image: url(../img/Andregabias.png);
+
+    height: 300px;
+    width: 300px;
+
+    background-size: cover;  
+}
+
+.bgPremierpas {
+    background-image: url(../img/Famillepapiertoilette.jpg);
+
+    height: 300px;
+    border-radius:50px;
+        -moz-border-radius:50px;
+        -webkit-border-radius:50px;
+
+    background-size: cover;
+}
+
+.bgPremierepassion {
+    background-image: url(../img/femmeenfant.jpg);
+
+    height: 300px;
+    border-radius:50px;
+        -moz-border-radius:50px;
+        -webkit-border-radius:50px;
+
+    background-size: cover;
+}
+
+.bgPremierereussite {
+    background-image: url(../img/Adogarcon.jpg);
+
+    height: 300px;
+    border-radius:50px;
+        -moz-border-radius:50px;
+        -webkit-border-radius:50px;
+
+    background-size: cover;
+}
+
+.bgMonpassage {
+    background-image: url(../img/couple-g8b7e983b6_1920.jpg);
+
+    height: 300px;
+    border-radius:50px;
+        -moz-border-radius:50px;
+        -webkit-border-radius:50px;
+
+    background-size: cover;
+}
+
+.bgJoseph {
+    background-image: url(../img/JosephRobichaud.png);
+
+    height: 300px;
+    border-radius:50px;
+        -moz-border-radius:50px;
+        -webkit-border-radius:50px;
+
+    background-size: cover;
+}
+
+.bgAutre {
+    background-image: url(../img/hockey-g10d22df03_1920.jpg);
+
+    height: 300px;
+    width: 500px;
+    border-radius:50px;
+        -moz-border-radius:50px;
+        -webkit-border-radius:50px;
+
+    background-size: cover;
+    background-position: center;
+
+}
+
+.hideall {
+    display: none;
+}
+
+div.bgcrim {
+    background-color: rgb(220, 20, 60, 0.7);
+}
+
+div.bgcrim p{
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: white;
+    border: white;
+    font-size: 33px;
+}
+
+div.bgfooter {
+    background-color: rgb(0, 146, 169, 0.7)
+}
+
+div.bgfooter p {
+    color: white;
+    border: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+div.bgfooter i {
+    color: white;
+    border: white;
+    font-size: 18px;
+}
+
+div.bgfooter a {
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: white;
+    border: white;
+    font-size: 18px;
+}
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-left: 60px solid rgb(220, 20, 60);
+    border-bottom: 40px solid transparent;
+  }
+
+  .iconinline {
+      display: inline;
+  }
+
+  .img-nouvelles {
+      height: 200px;
+      width: 200px;
+  }
+
+  /* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 146, 169, 0.8);
+    overflow: hidden;  
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+    display: block; 
+    transition: 0.3s; 
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+
+  .carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+
+/*Carousel*/
+
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+    }
+    
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+}
+
+/* Responsive */
+/* Tablette */
+
+@media (min-width: 768px) {
+        
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+    }
+    
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1199px) { 
+
+    .parallax {
+        background-image: url(../img/Famille.jpg);
+
+        height: auto;
+        width: auto;
+    
+        background-position: center;
+        background-size: cover; 
+        background-repeat: no-repeat;
+    }
+
+    .parallax2 {
+        background-image: url(../img/Adoquicri.jpg);
+        
+        height: 750px;
+    
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .parallaxapropos {
+        background-image: url(../img/skateboard-g660849c53_1920.jpg);
+        
+        height: 750px;
+    
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .parallaxprogrammes {
+        background-image: url(../img/boys-g3f5c9d0df_1920.jpg);
+        
+        height: 750px;
+    
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .bgappuyer {
+        background-image: none;
+
+        height: 400px;
+    }
+
+    .bgsoutenir {
+        background-image: none;
+
+        height: 400px;
+    }
+
+    .bgfavoriser {
+        background-image: none;
+
+        height: 400px;
+    }
+
+    .bgfillette {
+        background-image: none;
+    }
+
+    .bgAutre {
+        background-image: none;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gonnafixit {
+        padding-top: 10px;
+    }
+
+}
+
+/*Cellulaire*/
+
+@media only screen and (max-width: 480px) {
+    
+    .hide {
+        display: none;
+    }
+
+    .hidexs {
+        display: none;
+    }
+
+    .appear {
+        display: block;
+    }
+
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .centerxs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .getinline {
+        display: inline;
+    }
+
+    .justify {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .gonnafixit {
+        padding-top: 10px;
+    }
+
+    .gonnafixitxs {
+        padding-top: 10px;
+    }
+
+    .gonnafixit2 {
+        padding-left: 50px;
+    }
+
+    .gonnafixit3 {
+        margin: 0px;
+    }
+
+    .gonnafixitplease {
+        padding-top: 300px;
+    }
+
+    .biggestloser {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .h1xs {
+        font-size: 20px;
+    }
+
+    .iconxs {
+        font-size: 50px;
+    }
+
+    .bgappuyer {
+        background-image: none;
+
+        height: 250px;
+    }
+
+    .bgsoutenir {
+        background-image: none;
+
+        height: 250px;
+    }
+
+    .bgfavoriser {
+        background-image: none;
+
+        height: 250px;
+    }
+    
+    .parallaxapropos {
+        background-image: url(../img/skateboard-g660849c53_1920.jpg);
+    
+        height: auto;
+    
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .parallaxprogrammes {
+        background-image: url(../img/boys-g3f5c9d0df_1920.jpg);
+        
+        height: 750px;
+    
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .parallaxjoindre {
+        background-image: url(../img/Telephone.jpeg);
+        
+        height: 750px;
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .tealxs {
+        color: rgb(0, 146, 169);
+    }
+
+    .bgPremierpas {
+        background-image: url(../img/children-1869265_960_720.jpg);
+    
+        height: 200px;
+        border-radius:50px;
+            -moz-border-radius:50px;
+            -webkit-border-radius:50px;
+    
+        background-size: cover;
+        background-position: center;
+    }
+
+    .bgPremierepassion {
+        background-image: url(../img/folie.jpg);
+    
+        height: 200px;
+        border-radius:50px;
+            -moz-border-radius:50px;
+            -webkit-border-radius:50px;
+    
+        background-size: cover;
+        background-position: center;
+    }
+
+    .bgPremierereussite {
+        background-image: url(../img/Adogarcon.jpg);
+    
+        height: 200px;
+        border-radius:50px;
+            -moz-border-radius:50px;
+            -webkit-border-radius:50px;
+    
+        background-size: cover;
+    }
+    
+    .bgMonpassage {
+        background-image: url(../img/couple-g8b7e983b6_1920.jpg);
+    
+        height: 200px;
+        border-radius:50px;
+            -moz-border-radius:50px;
+            -webkit-border-radius:50px;
+    
+        background-size: cover;
+    }
+
+    .bgJoseph {
+        background-image: url(../img/JosephRobichaud.png);
+    
+        height: 200px;
+        border-radius:50px;
+            -moz-border-radius:50px;
+            -webkit-border-radius:50px;
+    
+        background-position: end;
+        background-size: cover;
+    }
+
+    .textxs {
+        font-size: 12px;
+    }
+    .textxxs {
+        font-size: 10px;
+    }
+
+}
